@@ -14,7 +14,7 @@ export class Home extends React.Component<RouteComponentProps<{}>, { messages: s
 
     this.hubConnection = new HubConnection('http://localhost:49980/chat');
     this.hubConnection.start().then(() => {
-      this.subject.merge(this.hubConnection.stream<string>('messages') as Observable<string>).subscribe(m => this.setState({ messages: this.state.messages.concat(m) }));
+      this.subject.merge(this.hubConnection.stream<string>('messages')).subscribe(m => this.setState({ messages: this.state.messages.concat(m) }));
     });
   }
 
