@@ -1,0 +1,7 @@
+[*]
+end_of_line = crlf
+indent_style = space
+indent_size = 2
+
+[*.cs]
+dotnet_sort_system_directives_first = true

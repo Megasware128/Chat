@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Megasware128.Chat", "Megasware128.Chat\Megasware128.Chat.csproj", "{82BC40E7-46C6-429D-B673-B22B745EF638}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ECB13B3C-A01C-4429-99F4-09F1ACA69412}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82BC40E7-46C6-429D-B673-B22B745EF638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82BC40E7-46C6-429D-B673-B22B745EF638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82BC40E7-46C6-429D-B673-B22B745EF638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82BC40E7-46C6-429D-B673-B22B745EF638}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4BEEC3C-686E-4A31-BC59-8A293171E75F}
+	EndGlobalSection
+EndGlobal
